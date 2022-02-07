@@ -1,0 +1,3 @@
+export const GET_HIGHLIGHTS = "GET_REQUEST";
+export const POST_HIGHLIGHTS= "POST_SUCCESS";
+
