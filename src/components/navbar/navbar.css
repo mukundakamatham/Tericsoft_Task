@@ -15,7 +15,28 @@
        height: 60px;
    
    }
-   li 
+   #fir{
+       position: absolute;
+       top: 0;
+       left: 35px;
+       height: 18px;width:18px;
+       border-radius: 12px;
+       padding:2px;
+      color: #fcf9f9;
+      background-color:#504b4b;
+      border: 2px solid white
+   }
+   #fir1{
+    position: absolute;
+    top: 83px;
+    left: 35px;
+    height: 18px;width:18px;
+    border-radius: 12px;
+    padding:2px;
+   color: #fcf9f9;
+   background-color:#504b4b;
+   border: 2px solid white
+}
    #font{
      
        position: relative;
@@ -28,7 +49,8 @@
    justify-content: space-between;
    flex-direction: row;
    padding-top: 15px;
-   
+   position: relative;
+   left: 0px;
    
    }
    #break{
