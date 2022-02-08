@@ -7,7 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 library.add(fab);
 export const Showcase = () => (
-  <div  >
+  < >
     <ul id="container" className="navbar">
       
 <li >   <FontAwesomeIcon id="icon"  icon={faStar} size="3x"/><p id="font"> Featured</p></li>
@@ -23,5 +23,5 @@ export const Showcase = () => (
 <li >   <FontAwesomeIcon id="icon" icon= {faShip} size="3x"/><p id="font"> Lake&sea</p></li>
 </ul>
 <p id="break"></p>
-  </div>
+  </>
 )

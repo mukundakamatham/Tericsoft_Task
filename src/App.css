@@ -1,4 +1,6 @@
 .App {
+  position: relative;
+  top: -18px;
   font-family: sans-serif;
   text-align: center;
   background-color: #2E2E2E ;
