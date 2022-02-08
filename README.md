@@ -1,19 +1,79 @@
-# A Create React App template on Gitpod
 
-This is a [Create React App](https://create-react-app.dev/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
-## Next Steps
 
-Click the button below to start a new development environment:
+# Technology we use
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-typescript-react)
 
-## Get Started With Your Own Project
+## Frontend
+- React
+- Redux
+- Styled- components
 
-### A new project
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
 
-### An existing project
 
-To get started with Create React App on Gitpod, add a [`.gitpod.yml`](./.gitpod.yml) file which contains the configuration to improve the developer experience on Gitpod. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color  | ![#eb2226](https://via.placeholder.com/10/eb2226?text=+) #eb2226 |
+| Backgroud color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Icons color and button color| ![#48a6fd](https://via.placeholder.com/10/48a6fd?text=+) #48a6fd |
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd backend/frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+
+
+
+
+`CURRENT_ENVIRONMENT`
+
+`SMTP_USERNAME`
+
+`SMTP_PASSWORD`
+
+`SMTP_PORT`
+
+
+### Frontend
+
+
+`PORT`
+
+
+
+
+
+## Acknowledgements
+
+ - [Masai School](https://masaischool.com/)
+  
+
+
