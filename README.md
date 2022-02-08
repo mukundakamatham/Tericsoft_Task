@@ -27,13 +27,13 @@
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/mukundakamatham/Tericsoft_Task.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd backend/frontend
+  cd Tericsoft_Task
 ```
 
 Install dependencies
@@ -53,27 +53,12 @@ Start the server
 
 
 
-`CURRENT_ENVIRONMENT`
-
-`SMTP_USERNAME`
-
-`SMTP_PASSWORD`
-
-`SMTP_PORT`
-
-
-### Frontend
-
-
-`PORT`
 
 
 
 
 
-## Acknowledgements
 
- - [Masai School](https://masaischool.com/)
   
 
 
