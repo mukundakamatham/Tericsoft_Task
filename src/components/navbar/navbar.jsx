@@ -10,7 +10,7 @@ export const Showcase = () => (
   < >
     <ul id="container" className="navbar">
       
-<li >   <FontAwesomeIcon id="icon"  icon={faStar} size="3x"/><p id="font"> Featured</p></li>
+<li id="act">   <FontAwesomeIcon id="icon"  icon={faStar} size="3x"/><p id="fir">1</p><p id="font"> Featured</p><p id="fir1">2</p></li>
 <li  >     <FontAwesomeIcon icon={faBullseye} id= "icon"  size="3x" /><p id="font">Archery</p></li>
 <li >  <FontAwesomeIcon id="icon" icon={faDumbbell} size="3x"/><p id="font"> Gymnastics</p></li>
 <li id="active">  <FontAwesomeIcon id="icon" icon={faPersonBiking}  size="3x"/><p id="font"> Cycling</p></li>
