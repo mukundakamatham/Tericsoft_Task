@@ -16,8 +16,8 @@
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color  | ![#eb2226](https://via.placeholder.com/10/eb2226?text=+) #eb2226 |
-| Backgroud color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Primary Color  | ![#BFBFBF](https://via.placeholder.com/10/BFBFBF?text=+) #BFBFBF |
+| Backgroud color | ![#2E2E2E](https://via.placeholder.com/10/2E2E2E?text=+) #2E2E2E |
 | Icons color and button color| ![#48a6fd](https://via.placeholder.com/10/48a6fd?text=+) #48a6fd |
 
 
