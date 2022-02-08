@@ -1,0 +1,22 @@
+.nav2{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+padding-bottom: 5px;
+color: #BFBFBF;
+margin-left: 30%;
+margin-right: 30%;
+height: 15px;
+
+}
+ul {
+    list-style-type: none;
+}
+
+.navbreak{
+    
+    height:10px;
+    width:100%;
+   background-color:#606060
+}

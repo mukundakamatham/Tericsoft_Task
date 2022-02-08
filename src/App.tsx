@@ -1,17 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import {Navbar1} from './components/navbar'
+import {Showcase} from './components/navbar/navbar'
+import {Welcome} from './components/navbar/nav1'
+import { Head } from './components/highilight/highlight';
+import { Imgbox } from './components/card/imgbox';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <div>mukesh</div>
-         <Navbar1/>
-      </header>
-    </div>
+    <header className="App-header">
+   
+       <Showcase/>
+       <Welcome/>
+       
+    </header>
+    <Head/>
+    <Imgbox/>
+  </div>
   );
 }
 
