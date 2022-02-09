@@ -8,16 +8,19 @@ export const Box=()=>{
       (state) => state.highlights,
       shallowEqual
     );
-   
+    const datas=[1,2,3]
+    
     return(
         <div id="mainbox" >
-           <div> <Imgbox datas={data[0]}/></div>
-           <div> <Imgbox  datas={data[1]}/></div>
-           <div>  <Imgbox  datas={data[2]}/></div>
+          
+{data.map((v, i) => {
+             
+              return (
+                <div key={i}>  <Imgbox  datas={v}/></div>
+              );
+            })}
 
-        {/* { data.forEach((element) => {
-        <Imgbox datas={element}/>
-         })}; */}
+
         </div>
     )
 }
