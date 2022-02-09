@@ -14,6 +14,7 @@ export const Box=()=>{
         <div id="mainbox" >
           
 
+
 {data.map((v, i) => {
              
               return (
