@@ -11,13 +11,12 @@ export const Box=()=>{
    
     return(
         <div id="mainbox" >
-           <div> <Imgbox datas={data[0]}/></div>
-           <div> <Imgbox  datas={data[1]}/></div>
-           <div>  <Imgbox  datas={data[2]}/></div>
+          
+          
 
-        {/* { data.forEach((element) => {
-        <Imgbox datas={element}/>
-         })}; */}
+         { data.map((element) => {
+         <div> <Imgbox datas={element}/></div>
+         })}
         </div>
     )
 }
