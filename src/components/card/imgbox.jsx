@@ -26,18 +26,16 @@ export const Imgbox=({datas})=>{
         <h5 id="text1">{data.time}</h5>
     </div>
     <div id="but">
-    <Button
- text={data.button[0]}
- className="pbutton"
- href={""}
- newTab={true}
-/>
-<Button
- text={data.button[1]}
- className="pbutton"
- href={""}
- newTab={true}
-/>
+   { data.button.map((e)=>{
+       return(
+        <Button
+        text={e}
+        className="pbutton"
+        href={""}
+        newTab={true}
+       />
+       )
+})}
 
     </div>
 </div>
