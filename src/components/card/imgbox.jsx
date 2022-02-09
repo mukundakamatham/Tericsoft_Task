@@ -5,13 +5,8 @@ import"./imgbox.css"
 
 export const Imgbox=({datas})=>{
    const data=datas
-  //  console.log(data,"asd")
-//     {
-//         "img": "https://images.unsplash.com/photo-1541625810516-44f1ce894bcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGN5Y2xpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-// "title": "Day 1 of BMX",
-// "time": "5:12",
-// "button":["heats","highlights"]
-//     }
+  
+
 
     return(
         <>
@@ -26,7 +21,9 @@ export const Imgbox=({datas})=>{
         <h5 id="text1">{data.time}</h5>
     </div>
     <div id="but">
-   { data.button.map((e)=>{
+
+{ data.button.map((e)=>{
+
        return(
         <Button
         text={e}
@@ -36,6 +33,7 @@ export const Imgbox=({datas})=>{
        />
        )
 })}
+
 
     </div>
 </div>
