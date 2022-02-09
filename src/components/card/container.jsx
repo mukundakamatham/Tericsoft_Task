@@ -13,12 +13,17 @@ export const Box=()=>{
     return(
         <div id="mainbox" >
           
+
+          
+
+   
 {data.map((v, i) => {
              
               return (
                 <div key={i}>  <Imgbox  datas={v}/></div>
               );
             })}
+
 
 
         </div>
